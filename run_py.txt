@@ -1,0 +1,8 @@
+training command:
+
+python pix2pix.py --mode train --output_dir D:/AI/Deecamp/GAN/data/output/pix2pix_1 --max_epochs 100 --input_dir D:/AI/Deecamp/GAN/data/pix2pix_1_test --which_direction AtoB --l1_weight 500.0
+
+
+testing command:
+
+python pix2pix.py --mode test --output_dir D:\AI\Deecamp\GAN\data\output\test_images --input_dir D:\AI\Deecamp\GAN\data\val_256_en --checkpoint D:/AI/Deecamp/GAN/data/output/pix2pix_1
